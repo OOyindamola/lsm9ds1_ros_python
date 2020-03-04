@@ -17,7 +17,7 @@ $ pip3 install board
 ```
 2. Install busio
 ```
-$mpip3 install busio
+$ pip3 install busio
 ```
 3. Install Adafruit CircuitPython LSM9ds1 library
 ```
@@ -38,7 +38,7 @@ sudo pip3 install catkin_pkg
 Build Workspace with Python 3
 ```
 $ cd ~/catkin_ws
-$  catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
 ```
 > **Note** This will configure catkin_make with Python 3. You may then proceed to use just catkin_make for subsequent builds. 
 ## Basic Usage
