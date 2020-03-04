@@ -31,6 +31,10 @@ $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/OOyindamola/lsm9ds1_ros_python/
 ```
+Install Catkin dependencies
+```
+sudo pip3 install catkin_pkg
+```
 Build Workspace with Python 3
 ```
 $ cd ~/catkin_ws
