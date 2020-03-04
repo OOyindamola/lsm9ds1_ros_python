@@ -1,0 +1,5 @@
+<launch>
+ 	<node name="imu_raw_data_publisher" pkg="autonomous_mobile_robot" type="imu_data_publisher.py" output="screen"/>
+
+    </node>
+</launch>
