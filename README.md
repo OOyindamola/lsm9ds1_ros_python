@@ -1,5 +1,5 @@
 ## Introduction
-This is a ROS package for reading Adafruit LSM9DS1 9DOF IMU data on Jetson Nano using i2c. It is tested on Python 3.6 using the Adafruit LSM9DS1 Library. The code for reading the data is derived from https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/blob/master/examples/lsm9ds1_simpletest.py
+This is a ROS package for publishing Adafruit LSM9DS1 9DOF IMU data on Jetson Nano using i2c. It is tested on Python 3.6 using the Adafruit LSM9DS1 Library. The code for reading the data is derived from https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/blob/master/examples/lsm9ds1_simpletest.py
 
 ## Usage
 1. Wire up the sensor according to the datasheet at https://cdn-learn.adafruit.com/downloads/pdf/adafruit-lsm9ds1-accelerometer-plus-gyro-plus-magnetometer-9-dof-breakout.pdf?timestamp=1583324342
