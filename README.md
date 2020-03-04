@@ -11,15 +11,11 @@ This is a ROS package for reading Adafruit LSM9DS1 9DOF IMU data on Jetson Nano 
       SCL - Pin 28
 
 ## Dependencies
-1. Install board
+1. Install adafruitblinka
 ```
-$ pip3 install board
+$ pip3 install adafruit-blinka
 ```
-2. Install busio
-```
-$ pip3 install busio
-```
-3. Install Adafruit CircuitPython LSM9ds1 library
+2. Install Adafruit CircuitPython LSM9ds1 library
 ```
 $ pip3 install adafruit-circuitpython-lsm9ds1
 ```
